@@ -718,7 +718,7 @@ r_{\min}\approx35.7\,\mathrm{fm}
 若实验在最近距离 $r_{\min}$ 处仍符合点电荷散射，只能推出：
 
 ```math
-R_{\mathrm{核}}<r_{\min}
+R_{\mathrm{核}}\lt r_{\min}
 ```
 
 因此最近接距离给出的是核半径上限。
@@ -1145,7 +1145,7 @@ T\approx4.7\,\mathrm h
 若要求散射角大于 $\theta_0$ 的总截面：
 
 ```math
-\sigma(\theta>\theta_0)
+\sigma(\theta\gt \theta_0)
 =
 \int_{\theta_0}^{\pi}
 \frac{d\sigma}{d\Omega}
@@ -1156,7 +1156,7 @@ d\Omega
 
 ```math
 \boxed{
-\sigma(\theta>\theta_0)
+\sigma(\theta\gt \theta_0)
 =
 \frac{\pi a^2}{4}
 \cot^2\frac{\theta_0}{2}
@@ -1172,7 +1172,7 @@ b_0
 \cot\frac{\theta_0}{2}
 ```
 
-所有 $b<b_0$ 的粒子都会有 $\theta>\theta_0$ ，因此：
+所有 $b\lt b_0$ 的粒子都会有 $\theta\gt \theta_0$ ，因此：
 
 ```math
 \sigma=\pi b_0^2
@@ -1182,7 +1182,7 @@ b_0
 
 ```math
 \boxed{
-\sigma(\theta>90^\circ)
+\sigma(\theta\gt 90^\circ)
 =
 \frac{\pi a^2}{4}
 }
@@ -1228,7 +1228,7 @@ a
 所以：
 
 ```math
-\sigma_{>90^\circ}
+\sigma_{\gt 90^\circ}
 =
 \frac{\pi a^2}{4}
 \approx
@@ -1365,7 +1365,7 @@ N_0n_t
 ### 类型五：求大于某角度的比例
 
 ```math
-P=n_t\sigma(\theta>\theta_0)
+P=n_t\sigma(\theta\gt \theta_0)
 ```
 
 ### 类型六：求测量时间
@@ -1442,7 +1442,7 @@ r_{\min}
 
 ```math
 \boxed{
-\sigma(\theta>\theta_0)
+\sigma(\theta\gt \theta_0)
 =
 \frac{\pi a^2}{4}
 \cot^2\frac{\theta_0}{2}

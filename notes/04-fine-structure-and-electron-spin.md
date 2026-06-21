@@ -381,8 +381,8 @@ F_z=\mu_z\frac{\partial B_z}{\partial z}
 
 于是：
 
-- $\mu_z>0$ 的原子向一个方向偏转；
-- $\mu_z<0$ 的原子向另一个方向偏转；
+- $\mu_z\gt 0$ 的原子向一个方向偏转；
+- $\mu_z\lt 0$ 的原子向另一个方向偏转；
 - 不同的分立 $\mu_z$ 对应不同的分立轨迹。
 
 所以史特恩—盖拉赫实验必须使用非均匀磁场。
@@ -1343,7 +1343,7 @@ V(r)=-\frac{Ze^2}{4\pi\varepsilon_0r},
 有
 
 ```math
-\xi(r)>0.
+\xi(r)\gt 0.
 ```
 
 ### 3. 怎样计算 $\mathbf L\cdot\mathbf S$
@@ -1493,8 +1493,8 @@ n\uparrow
 即
 
 ```math
-\Delta E_{2p}>
-\Delta E_{3p}>
+\Delta E_{2p}\gt{}
+\Delta E_{3p}\gt{}
 \Delta E_{4p}.
 ```
 
@@ -1509,8 +1509,8 @@ l\uparrow
 即
 
 ```math
-\Delta E_{4p}>
-\Delta E_{4d}>
+\Delta E_{4p}\gt{}
+\Delta E_{4d}\gt{}
 \Delta E_{4f}.
 ```
 

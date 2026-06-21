@@ -1354,7 +1354,7 @@ p_x=\hbar k
 设粒子只能在
 
 ```math
-0<x<a
+0\lt x\lt a
 ```
 
 范围内运动。
@@ -1644,7 +1644,7 @@ x=\frac a2
 基态能量为
 
 ```math
-E_1=\frac{\pi^2\hbar^2}{2ma^2}>0
+E_1=\frac{\pi^2\hbar^2}{2ma^2}\gt 0
 ```
 
 若基态能量为零，则
@@ -1662,7 +1662,7 @@ p=0
 同时粒子被限制在有限宽度 $a$ 内：
 
 ```math
-\Delta x<\infty
+\Delta x\lt \infty
 ```
 
 这将违反
@@ -1839,7 +1839,7 @@ hc\approx1240\ \mathrm{eV\,nm}
 求
 
 ```math
-0<x<\frac a2
+0\lt x\lt \frac a2
 ```
 
 内找到粒子的概率。
@@ -1866,7 +1866,7 @@ P
 范围：
 
 ```math
-\frac a3<x<\frac{2a}3
+\frac a3\lt x\lt \frac{2a}3
 ```
 
 ```math
@@ -3117,7 +3117,7 @@ s,\quad m_s
 ```
 
 ```math
-P(a<x<b)=\int_a^b|\psi|^2dx
+P(a\lt x\lt b)=\int_a^b|\psi|^2dx
 ```
 
 ---
