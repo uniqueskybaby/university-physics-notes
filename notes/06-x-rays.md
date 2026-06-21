@@ -476,7 +476,7 @@ h\nu=\Delta E
 因为 $\Delta E$ 可以在一个连续范围内变化，所以光子能量也连续：
 
 ```math
-0<h\nu\leq eU.
+0\lt h\nu\leq eU.
 ```
 
 因此产生连续谱。
@@ -723,7 +723,7 @@ M,N,O,\cdots\rightarrow L.
 由于 $K$ 层束缚更深：
 
 ```math
-B_K>B_L>B_M.
+B_K\gt B_L\gt B_M.
 ```
 
 当 $L$ 层电子填补 $K$ 空穴时：
@@ -751,19 +751,19 @@ B_K-B_M
 因为：
 
 ```math
-B_M<B_L,
+B_M\lt B_L,
 ```
 
 所以：
 
 ```math
-E_{K_\beta}>E_{K_\alpha},
+E_{K_\beta}\gt E_{K_\alpha},
 ```
 
 从而：
 
 ```math
-\lambda_{K_\beta}<\lambda_{K_\alpha}.
+\lambda_{K_\beta}\lt \lambda_{K_\alpha}.
 ```
 
 这是常见判断题。
@@ -1046,7 +1046,7 @@ B_K-B_L-B_M.
 即：
 
 ```math
-\lambda'>\lambda.
+\lambda'\gt \lambda.
 ```
 
 这说明部分 X 射线光子把能量和动量传给了电子。
@@ -1372,7 +1372,7 @@ m_ec
 因此：
 
 ```math
-E'<E.
+E'\lt E.
 ```
 
 又因为：
@@ -1392,7 +1392,7 @@ E'\downarrow
 即：
 
 ```math
-\lambda'>\lambda.
+\lambda'\gt \lambda.
 ```
 
 ---
@@ -2100,7 +2100,7 @@ x_{1/2}\approx0.866\,\mathrm{cm}
 |---|---|
 | 较低能量、高 $Z$ 材料 | 光电效应较强 |
 | 中等能量 | 康普顿散射常较重要 |
-| $E_\gamma>1.022\,\mathrm{MeV}$ | 电子对产生开始可能发生 |
+| $E_\gamma\gt 1.022\,\mathrm{MeV}$ | 电子对产生开始可能发生 |
 
 在医学影像中：
 
@@ -2118,7 +2118,7 @@ x_{1/2}\approx0.866\,\mathrm{cm}
 例如：
 
 ```math
-E_\gamma<B_K,
+E_\gamma\lt B_K,
 ```
 
 就不能击出 $K$ 层电子。
@@ -2176,7 +2176,7 @@ E_{K_\alpha}=B_K-B_L.
 
 ```math
 \boxed{
-E_{K,\text{edge}}>E_{K_\alpha}
+E_{K,\text{edge}}\gt E_{K_\alpha}
 }
 ```
 
@@ -2185,7 +2185,7 @@ E_{K,\text{edge}}>E_{K_\alpha}
 ```math
 \boxed{
 \lambda_{K,\text{edge}}
-<
+\lt{}
 \lambda_{K_\alpha}
 }
 ```
@@ -2330,9 +2330,9 @@ B_K\approx42\,\mathrm{keV}
 
 ```math
 E_{K_\alpha}
-<
+\lt{}
 E_{\text{edge}}
-<
+\lt{}
 E_{K_\beta}.
 ```
 
@@ -2607,7 +2607,7 @@ eU=E_{\max}=\frac{hc}{\lambda_{\min}}.
 先画出结合能关系：
 
 ```math
-B_K>B_L>B_M.
+B_K\gt B_L\gt B_M.
 ```
 
 再写：

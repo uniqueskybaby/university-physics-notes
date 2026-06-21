@@ -153,7 +153,7 @@ H=
 每个电子受到原子核吸引，但其他电子会屏蔽一部分核电荷，故价电子实际感受到的有效核电荷满足
 
 ```math
-Z_{\mathrm{eff}}<Z.
+Z_{\mathrm{eff}}\lt Z.
 ```
 
 必须区分：
@@ -509,14 +509,14 @@ E_{\text{三重态}}=E_0+J-K,
 其中 $J$ 是直接库仑积分， $K$ 是交换积分。于是
 
 ```math
-E_{\text{单}}-E_{\text{三}}=2K>0,
+E_{\text{单}}-E_{\text{三}}=2K\gt 0,
 ```
 
 故
 
 ```math
 \boxed{
-E_{\text{三重态}}<E_{\text{单重态}}
+E_{\text{三重态}}\lt E_{\text{单重态}}
 }
 ```
 
@@ -1631,14 +1631,14 @@ J=0\not\leftrightarrow J'=0.
 
 ```math
 \boxed{
-1s<2s<2p<3s<3p<4s<3d<4p<5s<4d<5p
+1s\lt 2s\lt 2p\lt 3s\lt 3p\lt 4s\lt 3d\lt 4p\lt 5s\lt 4d\lt 5p
 }
 ```
 
 继续为
 
 ```math
-6s<4f<5d<6p<7s<5f<6d<7p.
+6s\lt 4f\lt 5d\lt 6p\lt 7s\lt 5f\lt 6d\lt 7p.
 ```
 
 ### 填充顺序不等于电离顺序

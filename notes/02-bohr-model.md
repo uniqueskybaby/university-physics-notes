@@ -258,7 +258,7 @@ R_H
 其中：
 
 ```math
-n_i>n_f
+n_i\gt n_f
 ```
 
 普通氢的里德伯常数：
@@ -669,7 +669,7 @@ E_n
 ### 1. 能级能量
 
 ```math
-E_n<0
+E_n\lt 0
 ```
 
 负号表示束缚态。
@@ -692,7 +692,7 @@ E_{n_f}-E_{n_i}
 }
 ```
 
-其中 $n_f>n_i$ 。
+其中 $n_f\gt n_i$ 。
 
 ### 4. 电离能
 
@@ -715,7 +715,7 @@ E_{\mathrm{ion}}
 若：
 
 ```math
-n_i>n_f
+n_i\gt n_f
 ```
 
 则：
@@ -1219,13 +1219,13 @@ h\nu=E_n-E_1
 由于：
 
 ```math
-M_D>M_H
+M_D\gt M_H
 ```
 
 所以：
 
 ```math
-\mu_D>\mu_H
+\mu_D\gt \mu_H
 ```
 
 有限质量里德伯常数：
@@ -1239,7 +1239,7 @@ R_\infty\frac{\mu}{m_e}
 因此：
 
 ```math
-R_D>R_H
+R_D\gt R_H
 ```
 
 同一跃迁满足：
@@ -1252,7 +1252,7 @@ R_D>R_H
 
 ```math
 \boxed{
-\lambda_D<\lambda_H
+\lambda_D\lt \lambda_H
 }
 ```
 
@@ -1604,14 +1604,14 @@ n,\quad l,\quad m
 
 ```math
 \boxed{
-s>p>d>f
+s\gt p\gt d\gt f
 }
 ```
 
 相同主量子数下通常：
 
 ```math
-E_{ns}<E_{np}<E_{nd}<E_{nf}
+E_{ns}\lt E_{np}\lt E_{nd}\lt E_{nf}
 ```
 
 这里能量更小表示更负、束缚更强。
@@ -1648,7 +1648,7 @@ n^*=n-\delta_l
 一般：
 
 ```math
-\delta_s>\delta_p>\delta_d>\delta_f\approx0
+\delta_s\gt \delta_p\gt \delta_d\gt \delta_f\approx0
 ```
 
 原因是 $s$ 轨道贯穿最强，受原子实影响最大； $f$ 轨道贯穿很弱，最接近氢原子。
@@ -1931,7 +1931,7 @@ r_2\approx9.46\,\mathrm{fm}
 由于：
 
 ```math
-r_1=2.36\,\mathrm{fm}<R_N=7.1\,\mathrm{fm}
+r_1=2.36\,\mathrm{fm}\lt R_N=7.1\,\mathrm{fm}
 ```
 
 基态轨道已经深入原子核内部。
