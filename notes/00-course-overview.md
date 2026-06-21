@@ -25,7 +25,7 @@
 
 整门课程不是六章彼此孤立的内容，而是一条不断升级的理论链：
 
-$$
+```math
 \text{核式结构}
 \rightarrow
 \text{分立能级}
@@ -35,13 +35,13 @@ $$
 \text{自旋与精细结构}
 \rightarrow
 \text{多电子与周期律}
-$$
+```
 
 同时，X 射线与康普顿散射从另一条线说明：
 
-$$
+```math
 \text{光不仅有波动性，也具有能量和动量}
-$$
+```
 
 这门课的学习任务分为两部分：
 
@@ -115,11 +115,11 @@ $$
 
 第六章重点讨论 X 射线和康普顿散射，说明光子具有确定的能量和动量：
 
-$$
+```math
 E=h\nu,
 \qquad
 p=\frac{h}{\lambda}
-$$
+```
 
 ---
 
@@ -218,7 +218,7 @@ $$
 
 #### 核心逻辑
 
-$$
+```math
 \text{电子被发现}
 \rightarrow
 \text{汤姆逊模型}
@@ -228,34 +228,34 @@ $$
 \text{汤姆逊模型失败}
 \rightarrow
 \text{卢瑟福核式模型}
-$$
+```
 
 #### 核心公式
 
-$$
+```math
 a=
 \frac{Z_1Z_2e^2}
 {4\pi\varepsilon_0E}
-$$
+```
 
-$$
+```math
 b=\frac{a}{2}\cot\frac{\theta}{2}
-$$
+```
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
 =
 \frac{a^2}
 {16\sin^4(\theta/2)}
-$$
+```
 
-$$
+```math
 N_{\mathrm{det}}
 =
 N_0n_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega
-$$
+```
 
 ### 第二章：玻尔模型
 
@@ -265,7 +265,7 @@ $$
 
 #### 核心逻辑
 
-$$
+```math
 \text{卢瑟福模型的困难}
 \rightarrow
 \text{量子概念}
@@ -275,34 +275,34 @@ $$
 r_n,v_n,E_n
 \rightarrow
 \text{里德伯公式}
-$$
+```
 
 #### 核心公式
 
-$$
+```math
 L=\mu vr=n\hbar
-$$
+```
 
-$$
+```math
 r_n=
 a_0\frac{m_e}{\mu}\frac{n^2}{Z}
-$$
+```
 
-$$
+```math
 v_n=\frac{Z\alpha c}{n}
-$$
+```
 
-$$
+```math
 E_n=
 -\frac{\mu}{m_e}
 13.6\frac{Z^2}{n^2}\,\mathrm{eV}
-$$
+```
 
-$$
+```math
 h\nu=|E_i-E_f|
-$$
+```
 
-$$
+```math
 \frac{1}{\lambda}
 =
 R_MZ^2
@@ -311,13 +311,13 @@ R_MZ^2
 -
 \frac{1}{n_i^2}
 \right)
-$$
+```
 
 ### 第三章：量子力学初步
 
 #### 核心逻辑
 
-$$
+```math
 \text{波粒二象性}
 \rightarrow
 \text{德布罗意波}
@@ -329,33 +329,33 @@ $$
 \text{薛定谔方程}
 \rightarrow
 \text{量子数}
-$$
+```
 
 #### 核心公式
 
-$$
+```math
 \lambda=\frac{h}{p}
-$$
+```
 
-$$
+```math
 \int_{\text{全空间}}|\psi|^2d\tau=1
-$$
+```
 
-$$
+```math
 \Delta x\,\Delta p_x\geq\frac{\hbar}{2}
-$$
+```
 
-$$
+```math
 i\hbar\frac{\partial\psi}{\partial t}
 =
 \hat H\psi
-$$
+```
 
 ### 第四章：精细结构和电子自旋
 
 #### 核心逻辑
 
-$$
+```math
 \text{轨道角动量}
 \rightarrow
 \text{轨道磁矩}
@@ -367,21 +367,21 @@ $$
 \mathbf J=\mathbf L+\mathbf S
 \rightarrow
 \text{塞曼效应}
-$$
+```
 
 #### 核心公式
 
-$$
+```math
 \boldsymbol\mu_L
 =
 -\frac{e}{2m_e}\mathbf L
-$$
+```
 
-$$
+```math
 \mu_B=\frac{e\hbar}{2m_e}
-$$
+```
 
-$$
+```math
 g_J
 =
 1+
@@ -390,17 +390,17 @@ J(J+1)+S(S+1)-L(L+1)
 }{
 2J(J+1)
 }
-$$
+```
 
-$$
+```math
 \Delta E=g_Jm_J\mu_BB
-$$
+```
 
 ### 第五章：多电子原子
 
 #### 核心逻辑
 
-$$
+```math
 \text{电子组态}
 \rightarrow
 \text{角动量耦合}
@@ -410,33 +410,33 @@ $$
 \text{洪特规则}
 \rightarrow
 \text{周期表}
-$$
+```
 
 需要重点区分电子组态和原子态，并掌握原子态符号：
 
-$$
+```math
 ^{2S+1}L_J
-$$
+```
 
 ### 第六章：X 射线
 
 #### 核心公式
 
-$$
+```math
 2d\sin\theta=n\lambda
-$$
+```
 
-$$
+```math
 eU=\frac{hc}{\lambda_{\min}}
-$$
+```
 
-$$
+```math
 \Delta\lambda
 =
 \lambda'-\lambda
 =
 \frac{h}{m_ec}(1-\cos\theta)
-$$
+```
 
 ---
 
@@ -444,11 +444,11 @@ $$
 
 ### 公式树一：库仑相互作用
 
-$$
+```math
 V(r)\propto\frac{1}{r},
 \qquad
 F(r)\propto\frac{1}{r^2}
-$$
+```
 
 由此产生：
 
@@ -459,11 +459,11 @@ $$
 
 ### 公式树二：量子关系
 
-$$
+```math
 E=h\nu,
 \qquad
 p=\hbar k=\frac{h}{\lambda}
-$$
+```
 
 由此产生：
 
@@ -475,11 +475,11 @@ $$
 
 ### 公式树三：角动量量子化
 
-$$
+```math
 J^2=j(j+1)\hbar^2,
 \qquad
 J_z=m_j\hbar
-$$
+```
 
 由此产生：
 
@@ -491,9 +491,9 @@ $$
 
 ### 公式树四：磁矩与外场
 
-$$
+```math
 \Delta E=-\boldsymbol\mu\cdot\mathbf B
-$$
+```
 
 由此产生：
 
@@ -529,7 +529,7 @@ $$
 
 ### 题型三：散射计数
 
-$$
+```math
 \rho,t,M
 \rightarrow
 n_t
@@ -539,31 +539,31 @@ n_t
 \Delta\Omega
 \rightarrow
 N_{\mathrm{det}}
-$$
+```
 
 ### 题型四：原子态枚举
 
-$$
+```math
 l_1,l_2
 \rightarrow
 L
-$$
+```
 
-$$
+```math
 s_1,s_2
 \rightarrow
 S
-$$
+```
 
-$$
+```math
 L,S
 \rightarrow
 J
-$$
+```
 
-$$
+```math
 ^{2S+1}L_J
-$$
+```
 
 ### 题型五：塞曼分裂
 
@@ -644,7 +644,7 @@ $$
 
 整门课程可以概括为：
 
-$$
+```math
 \boxed{
 \text{实验发现异常}
 \rightarrow
@@ -656,4 +656,4 @@ $$
 \rightarrow
 \text{再用实验检验}
 }
-$$
+```
