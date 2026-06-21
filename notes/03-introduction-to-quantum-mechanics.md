@@ -871,7 +871,7 @@ dP=|\Psi(x,t)|^2dx
 
 ```math
 \boxed{
-P(a<x<b)
+P(a\lt x\lt b)
 =
 \int_a^b|\Psi(x,t)|^2dx
 }
@@ -1364,7 +1364,7 @@ p_x=\hbar k
 ```math
 V(x)=
 \begin{cases}
-0,&0<x<a\\
+0,&0\lt x\lt a\\
 \infty,&x\leq0\text{ 或 }x\geq a
 \end{cases}
 ```
@@ -1561,7 +1561,7 @@ A=\sqrt{\frac2a}
 ```math
 \psi_n(x)=
 \begin{cases}
-\sqrt{\frac2a}\sin\frac{n\pi x}{a},&0<x<a\\
+\sqrt{\frac2a}\sin\frac{n\pi x}{a},&0\lt x\lt a\\
 0,&\text{其他}
 \end{cases}
 ```
