@@ -16,7 +16,7 @@
 
 本章逻辑链：
 
-$$
+```math
 \boxed{
 \text{电子被发现}
 \rightarrow
@@ -32,7 +32,7 @@ $$
 \rightarrow
 \text{散射截面与实验计数}
 }
-$$
+```
 
 学习完本章，应当能够：
 
@@ -63,15 +63,15 @@ $$
 
 当时已知：
 
-$$
+```math
 \text{原子尺度}\sim10^{-10}\,\mathrm m
-$$
+```
 
 以及：
 
-$$
+```math
 \frac{m_p}{m_e}\approx1836
-$$
+```
 
 真正未知的问题是：
 
@@ -104,22 +104,22 @@ $$
 
 $\alpha$ 粒子本质上是氦核：
 
-$$
+```math
 {}^4_2\mathrm{He}^{2+}
-$$
+```
 
 因此：
 
-$$
+```math
 Z_1=2,
 \qquad
 q_\alpha=+2e
-$$
+```
 
-$$
+```math
 m_\alpha\approx4u
 \approx6.64\times10^{-27}\,\mathrm{kg}
-$$
+```
 
 典型动能为几个 $\mathrm{MeV}$。
 
@@ -127,9 +127,9 @@ $$
 
 $\alpha$ 粒子质量约为电子质量的 $7300$ 倍：
 
-$$
+```math
 m_\alpha\approx7300m_e
-$$
+```
 
 原子中的电子很难使高速重粒子发生大角偏转。因此，若观察到 $\alpha$ 粒子大角散射，更可能来自原子内部的大质量正电部分。
 
@@ -137,15 +137,15 @@ $$
 
 金的核电荷数：
 
-$$
+```math
 Z=79
-$$
+```
 
 卢瑟福散射截面满足：
 
-$$
+```math
 \frac{d\sigma}{d\Omega}\propto Z_2^2
-$$
+```
 
 重元素更容易产生可观测的大角散射。
 
@@ -163,7 +163,7 @@ $$
 
 装置基本结构：
 
-$$
+```math
 \alpha\text{ 源}
 \rightarrow
 \text{准直装置}
@@ -171,7 +171,7 @@ $$
 \text{薄金箔}
 \rightarrow
 \text{荧光屏或探测器}
-$$
+```
 
 实验发现：
 
@@ -191,12 +191,12 @@ $$
 
 若正电荷 $+Ze$ 均匀分布在半径为 $R$ 的球内，根据高斯定理，球内距离中心 $r$ 处的电场为：
 
-$$
+```math
 E(r)
 =
 \frac{1}{4\pi\varepsilon_0}
 \frac{Zer}{R^3}
-$$
+```
 
 其特点是：
 
@@ -208,9 +208,9 @@ $$
 
 点电荷库仑力则满足：
 
-$$
+```math
 F\propto\frac{1}{r^2}
-$$
+```
 
 越靠近中心，作用力越强。
 
@@ -218,40 +218,40 @@ $$
 
 设最大横向力约为：
 
-$$
+```math
 F_{\max}
 \approx
 \frac{1}{4\pi\varepsilon_0}
 \frac{(2e)(Ze)}{R^2}
-$$
+```
 
 作用时间：
 
-$$
+```math
 \Delta t\approx\frac{2R}{v}
-$$
+```
 
 横向动量改变量：
 
-$$
+```math
 \Delta p_\perp\approx F_{\max}\Delta t
-$$
+```
 
 小角近似：
 
-$$
+```math
 \theta\approx\frac{\Delta p_\perp}{mv}
-$$
+```
 
 利用：
 
-$$
+```math
 E=\frac{1}{2}mv^2
-$$
+```
 
 得到：
 
-$$
+```math
 \boxed{
 \theta_{\max}
 \approx
@@ -259,7 +259,7 @@ $$
 \frac{1}{R}
 \frac{2Ze^2}{4\pi\varepsilon_0}
 }
-$$
+```
 
 ---
 
@@ -267,56 +267,56 @@ $$
 
 动能为 $5\,\mathrm{MeV}$ 的 $\alpha$ 粒子射向金原子，取：
 
-$$
+```math
 Z=79,
 \qquad
 R=0.1\,\mathrm{nm}
-$$
+```
 
 使用：
 
-$$
+```math
 \frac{e^2}{4\pi\varepsilon_0}
 =
 1.44\,\mathrm{MeV\cdot fm}
-$$
+```
 
 换算：
 
-$$
+```math
 0.1\,\mathrm{nm}
 =
 10^5\,\mathrm{fm}
-$$
+```
 
 代入：
 
-$$
+```math
 \theta_{\max}
 \approx
 \frac{2\times79\times1.44}
 {5\times10^5}
 =
 4.55\times10^{-4}\,\mathrm{rad}
-$$
+```
 
 即：
 
-$$
+```math
 \boxed{
 \theta_{\max}\approx0.026^\circ
 }
-$$
+```
 
 这远小于实验中的 $90^\circ$ 甚至 $180^\circ$。
 
 多次随机小角散射的典型累积满足：
 
-$$
+```math
 \theta_{\mathrm{rms}}
 \sim
 \sqrt{N}\,\delta\theta
-$$
+```
 
 而不是 $N\delta\theta$，因此也不能稳定累积成反向散射。
 
@@ -341,11 +341,11 @@ $$
 
 少数粒子非常接近原子核。由于：
 
-$$
+```math
 F=
 \frac{1}{4\pi\varepsilon_0}
 \frac{Z_1Z_2e^2}{r^2}
-$$
+```
 
 $r$ 很小时，斥力很大。
 
@@ -389,9 +389,9 @@ $b$ 不是实际最近距离。
 
 入射速度和出射速度方向之间的夹角：
 
-$$
+```math
 0\leq\theta\leq\pi
-$$
+```
 
 ### 3. 最近接距离 $r_{\min}$
 
@@ -399,9 +399,9 @@ $$
 
 一般：
 
-$$
+```math
 r_{\min}\neq b
-$$
+```
 
 ---
 
@@ -409,14 +409,14 @@ $$
 
 定义：
 
-$$
+```math
 k=
 \frac{Z_1Z_2e^2}{4\pi\varepsilon_0}
-$$
+```
 
 以及特征长度：
 
-$$
+```math
 \boxed{
 a=
 \frac{k}{E}
@@ -424,25 +424,25 @@ a=
 \frac{Z_1Z_2e^2}
 {4\pi\varepsilon_0E}
 }
-$$
+```
 
 卢瑟福散射关系：
 
-$$
+```math
 \boxed{
 b=\frac{a}{2}\cot\frac{\theta}{2}
 }
-$$
+```
 
 等价地：
 
-$$
+```math
 \boxed{
 \tan\frac{\theta}{2}
 =
 \frac{a}{2b}
 }
-$$
+```
 
 ---
 
@@ -450,67 +450,67 @@ $$
 
 弹性散射前后速率相同：
 
-$$
+```math
 |\mathbf v_i|=|\mathbf v_f|=v
-$$
+```
 
 动量改变量大小：
 
-$$
+```math
 |\Delta\mathbf p|
 =
 2mv\sin\frac{\theta}{2}
-$$
+```
 
 中心力使角动量守恒：
 
-$$
+```math
 L=mvb
-$$
+```
 
 又有：
 
-$$
+```math
 L=mr^2\dot\varphi
-$$
+```
 
 因此：
 
-$$
+```math
 dt=\frac{mr^2}{L}\,d\varphi
-$$
+```
 
 对库仑力冲量积分，利用轨道对称性，可得：
 
-$$
+```math
 \Delta p
 =
 \frac{2k}{vb}
 \cos\frac{\theta}{2}
-$$
+```
 
 令两种动量改变量相等：
 
-$$
+```math
 2mv\sin\frac{\theta}{2}
 =
 \frac{2k}{vb}
 \cos\frac{\theta}{2}
-$$
+```
 
 结合：
 
-$$
+```math
 E=\frac{1}{2}mv^2
-$$
+```
 
 得到：
 
-$$
+```math
 \boxed{
 b=\frac{k}{2E}\cot\frac{\theta}{2}
 }
-$$
+```
 
 ---
 
@@ -518,35 +518,35 @@ $$
 
 当：
 
-$$
+```math
 b\rightarrow0
-$$
+```
 
 有：
 
-$$
+```math
 \theta\rightarrow180^\circ
-$$
+```
 
 小角度下：
 
-$$
+```math
 \cot\frac{\theta}{2}\approx\frac{2}{\theta}
-$$
+```
 
 所以：
 
-$$
+```math
 \boxed{
 \theta\approx\frac{a}{b}
 }
-$$
+```
 
 又因为：
 
-$$
+```math
 a\propto\frac{Z_1Z_2}{E}
-$$
+```
 
 所以：
 
@@ -560,39 +560,39 @@ $$
 
 动能为 $7.68\,\mathrm{MeV}$ 的 $\alpha$ 粒子在金核上散射，已知：
 
-$$
+```math
 b=10\,\mathrm{fm},
 \qquad
 Z_1=2,
 \qquad
 Z_2=79
-$$
+```
 
 先求：
 
-$$
+```math
 a=
 \frac{2\times79\times1.44}{7.68}
 \approx29.6\,\mathrm{fm}
-$$
+```
 
 再用：
 
-$$
+```math
 \tan\frac{\theta}{2}
 =
 \frac{a}{2b}
 =
 1.48
-$$
+```
 
 得到：
 
-$$
+```math
 \boxed{
 \theta\approx112^\circ
 }
-$$
+```
 
 若 $b=100\,\mathrm{fm}$，则 $\theta\approx16.9^\circ$；若 $b=1000\,\mathrm{fm}$，则 $\theta\approx1.7^\circ$。
 
@@ -600,11 +600,11 @@ $$
 
 ## 十五、参数 $a$ 的物理意义
 
-$$
+```math
 a=
 \frac{Z_1Z_2e^2}
 {4\pi\varepsilon_0E}
-$$
+```
 
 它是库仑作用的特征长度，不是原子半径或原子核半径。
 
@@ -612,15 +612,15 @@ $$
 
 当 $\theta=90^\circ$ 时：
 
-$$
+```math
 b=\frac{a}{2}
-$$
+```
 
 正碰时：
 
-$$
+```math
 r_{\min}=a
-$$
+```
 
 ---
 
@@ -628,45 +628,45 @@ $$
 
 能量守恒：
 
-$$
+```math
 E
 =
 \frac{L^2}{2mr_{\min}^2}
 +
 \frac{k}{r_{\min}}
-$$
+```
 
 利用：
 
-$$
+```math
 L=mvb,
 \qquad
 E=\frac{1}{2}mv^2
-$$
+```
 
 得到：
 
-$$
+```math
 1
 =
 \frac{b^2}{r_{\min}^2}
 +
 \frac{a}{r_{\min}}
-$$
+```
 
 解得：
 
-$$
+```math
 \boxed{
 r_{\min}
 =
 \frac{a+\sqrt{a^2+4b^2}}{2}
 }
-$$
+```
 
 也可写为：
 
-$$
+```math
 \boxed{
 r_{\min}
 =
@@ -675,7 +675,7 @@ r_{\min}
 1+\csc\frac{\theta}{2}
 \right)
 }
-$$
+```
 
 ---
 
@@ -683,19 +683,19 @@ $$
 
 仍取 $7.68\,\mathrm{MeV}$ 的 $\alpha$ 粒子和金核，若：
 
-$$
+```math
 \theta=90^\circ
-$$
+```
 
 已有：
 
-$$
+```math
 a=29.6\,\mathrm{fm}
-$$
+```
 
 所以：
 
-$$
+```math
 r_{\min}
 =
 \frac{29.6}{2}
@@ -703,23 +703,23 @@ r_{\min}
 1+\csc45^\circ
 \right)
 \approx35.7\,\mathrm{fm}
-$$
+```
 
 答案：
 
-$$
+```math
 \boxed{
 r_{\min}\approx35.7\,\mathrm{fm}
 }
-$$
+```
 
 此时 $b=14.8\,\mathrm{fm}$，说明 $b$ 与 $r_{\min}$ 不相等。
 
 若实验在最近距离 $r_{\min}$ 处仍符合点电荷散射，只能推出：
 
-$$
+```math
 R_{\mathrm{核}}<r_{\min}
-$$
+```
 
 因此最近接距离给出的是核半径上限。
 
@@ -744,82 +744,82 @@ $b-\theta$ 关系描述单个粒子轨迹，但实验不能测量每个粒子的
 
 瞄准距离位于：
 
-$$
+```math
 b\sim b+db
-$$
+```
 
 之间的粒子，在入射平面对应圆环面积：
 
-$$
+```math
 d\sigma=2\pi b\,|db|
-$$
+```
 
 散射后进入：
 
-$$
+```math
 \theta\sim\theta+d\theta
-$$
+```
 
 的空心圆锥，立体角为：
 
-$$
+```math
 d\Omega
 =
 2\pi\sin\theta\,d\theta
-$$
+```
 
 微分散射截面定义为：
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
-$$
+```
 ---
 
 ## 二十、立体角
 
 立体角定义为球面面积与半径平方之比：
 
-$$
+```math
 \Omega=\frac{S}{R^2}
-$$
+```
 
 整个球面的立体角为：
 
-$$
+```math
 \Omega_{\mathrm{全}}=4\pi
-$$
+```
 
 一般微分立体角：
 
-$$
+```math
 d\Omega
 =
 \sin\theta\,d\theta\,d\varphi
-$$
+```
 
 轴对称情况下：
 
-$$
+```math
 d\Omega
 =
 2\pi\sin\theta\,d\theta
-$$
+```
 
 若小探测器面积为 $S$，距散射点为 $R$，且正对散射点：
 
-$$
+```math
 \boxed{
 \Delta\Omega\approx\frac{S}{R^2}
 }
-$$
+```
 
 若探测器法线与粒子方向夹角为 $\beta$：
 
-$$
+```math
 \Delta\Omega
 \approx
 \frac{S\cos\beta}{R^2}
-$$
+```
 
 ---
 
@@ -827,24 +827,24 @@ $$
 
 已知：
 
-$$
+```math
 b=\frac{a}{2}\cot\frac{\theta}{2}
-$$
+```
 
 微分：
 
-$$
+```math
 \left|
 \frac{db}{d\theta}
 \right|
 =
 \frac{a}{4}
 \csc^2\frac{\theta}{2}
-$$
+```
 
 入射圆环面积：
 
-$$
+```math
 d\sigma
 =
 2\pi b
@@ -852,41 +852,41 @@ d\sigma
 \frac{db}{d\theta}
 \right|
 d\theta
-$$
+```
 
 散射圆锥立体角：
 
-$$
+```math
 d\Omega
 =
 2\pi\sin\theta\,d\theta
-$$
+```
 
 所以：
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
 =
 \frac{b}{\sin\theta}
 \left|
 \frac{db}{d\theta}
 \right|
-$$
+```
 
 代入并化简：
 
-$$
+```math
 \boxed{
 \frac{d\sigma}{d\Omega}
 =
 \frac{a^2}
 {16\sin^4(\theta/2)}
 }
-$$
+```
 
 即：
 
-$$
+```math
 \boxed{
 \frac{d\sigma}{d\Omega}
 =
@@ -897,41 +897,41 @@ $$
 \frac{1}
 {\sin^4(\theta/2)}
 }
-$$
+```
 
 微分截面不是概率本身，而是单位立体角内的有效散射面积，常用单位为：
 
-$$
+```math
 \mathrm{m^2/sr}
-$$
+```
 
 或：
 
-$$
+```math
 \mathrm{barn/sr}
-$$
+```
 
 ---
 
 ## 二十二、卢瑟福公式的比例关系
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
 \propto
 Z_1^2Z_2^2
-$$
+```
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
 \propto
 \frac{1}{E^2}
-$$
+```
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
 \propto
 \frac{1}{\sin^4(\theta/2)}
-$$
+```
 
 因此：
 
@@ -945,7 +945,7 @@ $$
 
 比较 $60^\circ$ 和 $120^\circ$ 处的微分截面：
 
-$$
+```math
 \frac{\sigma(60^\circ)}
 {\sigma(120^\circ)}
 =
@@ -954,31 +954,31 @@ $$
 }{
 \sin^4(30^\circ)
 }
-$$
+```
 
 因为：
 
-$$
+```math
 \sin60^\circ=\frac{\sqrt3}{2},
 \qquad
 \sin30^\circ=\frac12
-$$
+```
 
 所以：
 
-$$
+```math
 \boxed{
 \sigma(60^\circ)
 =
 9\sigma(120^\circ)
 }
-$$
+```
 
 高频错误是把公式误写成 $\sin^4\theta$。正确分母是：
 
-$$
+```math
 \sin^4\frac{\theta}{2}
-$$
+```
 
 ---
 
@@ -992,7 +992,7 @@ $$
 
 探测器计数：
 
-$$
+```math
 \boxed{
 N_{\mathrm{det}}
 =
@@ -1000,37 +1000,37 @@ N_0n_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega
 }
-$$
+```
 
 若探测效率为 $\eta$：
 
-$$
+```math
 N_{\mathrm{det}}
 =
 N_0n_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega\,\eta
-$$
+```
 
 若靶的质量密度为 $\rho$、厚度为 $t$、摩尔质量为 $M$：
 
-$$
+```math
 \boxed{
 n_t
 =
 \frac{\rho tN_A}{M}
 }
-$$
+```
 
 若每秒入射粒子数为 $I$，测量时间为 $T$：
 
-$$
+```math
 N_0=IT
-$$
+```
 
 计数率：
 
-$$
+```math
 \boxed{
 R
 =
@@ -1038,15 +1038,15 @@ In_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega
 }
-$$
+```
 
 测量时间：
 
-$$
+```math
 \boxed{
 T=\frac{N_{\mathrm{目标}}}{R}
 }
-$$
+```
 
 ---
 
@@ -1054,57 +1054,57 @@ $$
 
 已知：
 
-$$
+```math
 \frac{d\sigma}{d\Omega}
 =
 1\,\mathrm{b/sr}
-$$
+```
 
-$$
+```math
 t=1\,\mu\mathrm m
-$$
+```
 
-$$
+```math
 \rho
 =
 1.93\times10^4\,\mathrm{kg/m^3}
-$$
+```
 
-$$
+```math
 M=0.197\,\mathrm{kg/mol}
-$$
+```
 
-$$
+```math
 I=10^5\,\mathrm{s^{-1}}
-$$
+```
 
-$$
+```math
 \Delta\Omega=0.01\,\mathrm{sr}
-$$
+```
 
 要求记录 $100$ 个粒子。
 
 先求面原子数密度：
 
-$$
+```math
 n_t
 =
 \frac{\rho tN_A}{M}
 \approx
 5.90\times10^{22}\,\mathrm{m^{-2}}
-$$
+```
 
 截面换算：
 
-$$
+```math
 1\,\mathrm b
 =
 10^{-28}\,\mathrm{m^2}
-$$
+```
 
 计数率：
 
-$$
+```math
 R
 =
 10^5
@@ -1114,29 +1114,29 @@ R
 10^{-28}
 \times
 0.01
-$$
+```
 
-$$
+```math
 R
 =
 5.90\times10^{-3}\,\mathrm{s^{-1}}
-$$
+```
 
 所以：
 
-$$
+```math
 T
 =
 \frac{100}{5.90\times10^{-3}}
 \approx
 1.69\times10^4\,\mathrm s
-$$
+```
 
-$$
+```math
 \boxed{
 T\approx4.7\,\mathrm h
 }
-$$
+```
 
 ---
 
@@ -1144,49 +1144,49 @@ $$
 
 若要求散射角大于 $\theta_0$ 的总截面：
 
-$$
+```math
 \sigma(\theta>\theta_0)
 =
 \int_{\theta_0}^{\pi}
 \frac{d\sigma}{d\Omega}
 d\Omega
-$$
+```
 
 结果：
 
-$$
+```math
 \boxed{
 \sigma(\theta>\theta_0)
 =
 \frac{\pi a^2}{4}
 \cot^2\frac{\theta_0}{2}
 }
-$$
+```
 
 也可直接用几何方法：
 
-$$
+```math
 b_0
 =
 \frac{a}{2}
 \cot\frac{\theta_0}{2}
-$$
+```
 
 所有 $b<b_0$ 的粒子都会有 $\theta>\theta_0$，因此：
 
-$$
+```math
 \sigma=\pi b_0^2
-$$
+```
 
 特别地：
 
-$$
+```math
 \boxed{
 \sigma(\theta>90^\circ)
 =
 \frac{\pi a^2}{4}
 }
-$$
+```
 
 ---
 
@@ -1194,76 +1194,76 @@ $$
 
 一束动能为：
 
-$$
+```math
 E=4.78\,\mathrm{MeV}
-$$
+```
 
 的 $\alpha$ 粒子入射到厚度：
 
-$$
+```math
 t=1\,\mu\mathrm m
-$$
+```
 
 的金箔上。已知：
 
-$$
+```math
 \rho=1.93\times10^4\,\mathrm{kg/m^3}
-$$
+```
 
-$$
+```math
 Z_2=79,
 \qquad
 M=0.197\,\mathrm{kg/mol}
-$$
+```
 
 先求：
 
-$$
+```math
 a
 =
 \frac{2\times79\times1.44}{4.78}
 \approx47.6\,\mathrm{fm}
-$$
+```
 
 所以：
 
-$$
+```math
 \sigma_{>90^\circ}
 =
 \frac{\pi a^2}{4}
 \approx
 1.78\times10^{-27}\,\mathrm{m^2}
-$$
+```
 
 即约：
 
-$$
+```math
 17.8\,\mathrm b
-$$
+```
 
 面原子数密度：
 
-$$
+```math
 n_t
 \approx
 5.90\times10^{22}\,\mathrm{m^{-2}}
-$$
+```
 
 散射概率：
 
-$$
+```math
 P=n_t\sigma
 \approx
 1.05\times10^{-4}
-$$
+```
 
 换成百分数：
 
-$$
+```math
 \boxed{
 P_{\%}\approx0.0105\%
 }
-$$
+```
 
 约每 $9.5\times10^3$ 个入射粒子中有一个散射到 $90^\circ$ 以上。
 
@@ -1273,7 +1273,7 @@ $$
 
 综合关系：
 
-$$
+```math
 N_{\mathrm{det}}
 \propto
 N_0
@@ -1281,7 +1281,7 @@ N_0
 \frac{Z_1^2Z_2^2}{E^2}
 \frac{\Delta\Omega}
 {\sin^4(\theta/2)}
-$$
+```
 
 | 参数变化 | 计数变化 |
 |---|---:|
@@ -1296,7 +1296,7 @@ $$
 
 例：把金靶 $Z=79$ 换成铝靶 $Z=13$，同时把能量降为原来一半：
 
-$$
+```math
 \frac{R_{\mathrm{Al}}}{R_{\mathrm{Au}}}
 =
 \left(
@@ -1304,16 +1304,16 @@ $$
 \right)^2
 \times4
 \approx0.108
-$$
+```
 
 所以：
 
-$$
+```math
 \boxed{
 R_{\mathrm{Al}}
 \approx0.11R_{\mathrm{Au}}
 }
-$$
+```
 
 ---
 
@@ -1321,66 +1321,66 @@ $$
 
 ### 类型一：给 $b$ 求 $\theta$
 
-$$
+```math
 \tan\frac{\theta}{2}
 =
 \frac{a}{2b}
-$$
+```
 
 ### 类型二：给 $\theta$ 求 $b$
 
-$$
+```math
 b=\frac{a}{2}\cot\frac{\theta}{2}
-$$
+```
 
 ### 类型三：求最近接距离
 
-$$
+```math
 r_{\min}
 =
 \frac{a}{2}
 \left(
 1+\csc\frac{\theta}{2}
 \right)
-$$
+```
 
 或：
 
-$$
+```math
 r_{\min}
 =
 \frac{a+\sqrt{a^2+4b^2}}{2}
-$$
+```
 
 ### 类型四：求某方向计数
 
-$$
+```math
 N_{\mathrm{det}}
 =
 N_0n_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega
-$$
+```
 
 ### 类型五：求大于某角度的比例
 
-$$
+```math
 P=n_t\sigma(\theta>\theta_0)
-$$
+```
 
 ### 类型六：求测量时间
 
-$$
+```math
 R
 =
 In_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega
-$$
+```
 
-$$
+```math
 T=\frac{N_{\mathrm{目标}}}{R}
-$$
+```
 
 ---
 
@@ -1388,36 +1388,36 @@ $$
 
 ### 必须默写
 
-$$
+```math
 \boxed{
 a=
 \frac{Z_1Z_2e^2}
 {4\pi\varepsilon_0E}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 b=\frac{a}{2}\cot\frac{\theta}{2}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \frac{d\sigma}{d\Omega}
 =
 \frac{a^2}
 {16\sin^4(\theta/2)}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 n_t=\frac{\rho tN_A}{M}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 N_{\mathrm{det}}
 =
@@ -1425,11 +1425,11 @@ N_0n_t
 \frac{d\sigma}{d\Omega}
 \Delta\Omega
 }
-$$
+```
 
 ### 建议记住
 
-$$
+```math
 \boxed{
 r_{\min}
 =
@@ -1438,56 +1438,56 @@ r_{\min}
 1+\csc\frac{\theta}{2}
 \right)
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \sigma(\theta>\theta_0)
 =
 \frac{\pi a^2}{4}
 \cot^2\frac{\theta_0}{2}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \Delta\Omega\approx\frac{S}{R^2}
 }
-$$
+```
 
 ---
 
 ## 三十一、必须记住的常数
 
-$$
+```math
 \boxed{
 \frac{e^2}{4\pi\varepsilon_0}
 =
 1.44\,\mathrm{MeV\cdot fm}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 N_A
 =
 6.022\times10^{23}\,\mathrm{mol^{-1}}
 }
-$$
+```
 
-$$
+```math
 1\,\mathrm{fm}=10^{-15}\,\mathrm m
-$$
+```
 
-$$
+```math
 1\,\text{Å}=10^{-10}\,\mathrm m
-$$
+```
 
-$$
+```math
 1\,\mathrm{nm}=10^{-9}\,\mathrm m
-$$
+```
 
-$$
+```math
 \boxed{
 1\,\mathrm b
 =
@@ -1495,25 +1495,25 @@ $$
 =
 100\,\mathrm{fm^2}
 }
-$$
+```
 
-$$
+```math
 1\,\mathrm{eV}
 =
 1.602\times10^{-19}\,\mathrm J
-$$
+```
 
-$$
+```math
 1u
 =
 1.6605\times10^{-27}\,\mathrm{kg}
-$$
+```
 
-$$
+```math
 m_\alpha
 \approx
 6.64\times10^{-27}\,\mathrm{kg}
-$$
+```
 
 ---
 
@@ -1548,12 +1548,12 @@ $$
 
 轻靶核反冲明显，需要使用质心系：
 
-$$
+```math
 E_{\mathrm{cm}}
 =
 E_{\mathrm{lab}}
 \frac{M}{M+m}
-$$
+```
 
 ### 5. 粒子明显失能
 
@@ -1565,7 +1565,7 @@ $$
 
 卢瑟福模型建立了核式原子结构，也开创了利用散射研究微观结构的方法：
 
-$$
+```math
 \text{已知入射粒子}
 +
 \text{未知靶结构}
@@ -1573,7 +1573,7 @@ $$
 \text{测量散射角和能量}
 \rightarrow
 \text{反推内部结构}
-$$
+```
 
 但它不能解释：
 
@@ -1599,7 +1599,7 @@ $$
 
 完整逻辑：
 
-$$
+```math
 \boxed{
 b
 \longleftrightarrow
@@ -1611,7 +1611,7 @@ P
 \longrightarrow
 N_{\mathrm{det}}
 }
-$$
+```
 
 ---
 
